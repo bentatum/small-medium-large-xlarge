@@ -1,7 +1,7 @@
 {
   "name": "small-medium-large-xlarge",
   "description": "given a set of screen widths and a screen width value, this will tell you if your screen is small, medium, large or extra large.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Benjamin Tatum <bentatum@me.com>",
   "bugs": {
     "url": "https://github.com/bentatum/small-medium-large-xlarge/issues"
@@ -11,6 +11,7 @@
     "babel-eslint": "^6.1.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
     "expect": "^1.20.1",
     "mocha": "^2.5.3",
     "standard": "*",
