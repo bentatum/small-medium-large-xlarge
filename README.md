@@ -22,7 +22,17 @@ npm install small-medium-large-xlarge
 ## Usage
 
 ```js
-var smallMediumLargeXlarge = require('small-medium-large-xlarge')
+import { getScreenSize } from 'small-medium-large-xlarge'
+const breakpoints = {
+  small: 420,
+  medium: 768,
+  large: 1024
+}
+
+const screenSize = getScreenSize(400, breakpoints) // 'small'
+const screenSize = getScreenSize(700, breakpoints) // 'medium'
+const screenSize = getScreenSize(1000, breakpoints) // 'large'
+const screenSize = getScreenSize(1200, breakpoints) // 'xlarge'
 ```
 
 ## Contributing
