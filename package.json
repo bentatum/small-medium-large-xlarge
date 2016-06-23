@@ -1,0 +1,49 @@
+{
+  "name": "small-medium-large-xlarge",
+  "description": "given a set of screen widths and a screen width value, this will tell you if your screen is small, medium, large or extra large.",
+  "version": "1.0.0",
+  "author": "Benjamin Tatum <bentatum@me.com>",
+  "bugs": {
+    "url": "https://github.com/bentatum/small-medium-large-xlarge/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/bentatum/small-medium-large-xlarge",
+  "keywords": [
+    "screen",
+    "width"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bentatum/small-medium-large-xlarge.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint; mocha spec --compilers js:babel-register"
+  },
+  "standard": {
+    "globals": [
+      "beforeEach",
+      "describe",
+      "it"
+    ],
+    "parser": "babel-eslint"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  }
+}
