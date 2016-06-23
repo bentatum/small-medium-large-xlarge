@@ -23,6 +23,7 @@ npm install small-medium-large-xlarge
 
 ```js
 import { getScreenSize } from 'small-medium-large-xlarge'
+
 const breakpoints = {
   small: 420,
   medium: 768,
