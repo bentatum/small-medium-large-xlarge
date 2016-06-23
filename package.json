@@ -1,7 +1,7 @@
 {
   "name": "small-medium-large-xlarge",
   "description": "given a set of screen widths and a screen width value, this will tell you if your screen is small, medium, large or extra large.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Benjamin Tatum <bentatum@me.com>",
   "bugs": {
     "url": "https://github.com/bentatum/small-medium-large-xlarge/issues"
